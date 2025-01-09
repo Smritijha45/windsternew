@@ -2,73 +2,39 @@ import React from "react";
 
 const customers = [
   {
-    name: "Neil Sims",
-    email: "[email protected]",
-    amount: "$320",
-    img: "src/assets/image1.png",
+    name: "Neil Sims", email: "[email protected]",amount: "$320", img: "src/assets/image1.png",
+ },
+  {
+    name: "Bonnie Green", email: "[email protected]",amount: "$3467",img: "src/assets/image2.png",
   },
   {
-    name: "Bonnie Green",
-    email: "[email protected]",
-    amount: "$3467",
-    img: "src/assets/image2.png",
+    name: "Michael Gough",email: "[email protected]",amount: "$67",img: "src/assets/image3.png",
+  },
+  {name: "Thomes Lean",email: "[email protected]",amount: "$2367",img: "src/assets/image4.png",
   },
   {
-    name: "Michael Gough",
-    email: "[email protected]",
-    amount: "$67",
-    img: "src/assets/image3.png",
-  },
-  {
-    name: "Thomes Lean",
-    email: "[email protected]",
-    amount: "$2367",
-    img: "src/assets/image4.png",
-  },
-  {
-    name: "Lana Byrd",
-    email: "[email protected]",
-    amount: "$367",
-    img: "src/assets/image5.png",
+    name: "Lana Byrd",email: "[email protected]",amount: "$367",img: "src/assets/image5.png",
   },
 ];
 
 const channels = [
   {
-    name: "Organic Search",
-    users: "5,649",
-    percentage: "30%",
-    color: "bg-blue-500",
+    name: "Organic Search",users: "5,649",percentage: "30%",color: "bg-blue-500",
   },
   {
-    name: "Referral",
-    users: "4,025",
-    percentage: "24%",
-    color: "bg-orange-300",
+    name: "Referral",users: "4,025",percentage: "24%",color: "bg-orange-300",
   },
   {
-    name: "Direct",
-    users: "3,105",
-    percentage: "18%",
-    color: "bg-teal-400",
+    name: "Direct",users: "3,105",percentage: "18%",color: "bg-teal-400",
   },
   {
-    name: "Social",
-    users: "1,251",
-    percentage: "12%",
-    color: "bg-pink-600",
+    name: "Social",users: "1,251",percentage: "12%",color: "bg-pink-600",
   },
   {
-    name: "Other",
-    users: "734",
-    percentage: "9%",
-    color: "bg-indigo-600",
+    name: "Other",users: "734",percentage: "9%",color: "bg-indigo-600",
   },
   {
-    name: "Email",
-    users: "456",
-    percentage: "7%",
-    color: "bg-purple-500",
+    name: "Email",users: "456",percentage: "7%",color: "bg-purple-500",
   },
 ];
 
